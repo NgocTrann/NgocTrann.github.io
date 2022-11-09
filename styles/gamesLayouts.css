@@ -1,0 +1,99 @@
+/*UNIVERSAL*/
+
+.games-text {
+
+    margin-top: 20px;
+
+    display: block;
+    width: 1fr;
+    clear: both;
+ 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 7px 7px 4px #2e2e2e;
+    color: rgb(250, 250, 250);
+ }
+
+.game-container {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.game-name {
+    color: #845BB3;
+    text-shadow: 7px 7px 4px #2e2e2e;
+
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.game-stats {
+    color: rgb(250, 250, 250);
+    font-style: italic;
+    font-size: 20px;
+
+}
+
+.game-play:hover {
+    transition: color 0.15s;
+    color: rgb(66, 66, 66);
+}
+
+.game-play {
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+    border-width: 0;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    width: 100%;    
+}
+
+.game-picture {
+    display: inline-block;
+    object-fit: cover;
+
+    width: 100%;
+    min-width: none;
+
+}
+
+.div-2 {
+    text-align: center;
+}
+
+
+/*LEFT LAYOUT*/
+
+.game-LeftLayout-preview {
+    margin-top: 20px;
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.div-1-LeftLayout {
+    margin-right: 20px;
+}
+
+/*RIGHT LAYOUT*/
+
+.game-RightLayout-preview {
+    margin-top: 20px;
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.div-1-RightLayout {
+    margin-left: 20px;
+}
+
+
