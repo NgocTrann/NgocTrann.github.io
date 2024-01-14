@@ -1,0 +1,113 @@
+.showcase {
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.showcase-text {
+    display: block;
+    width: 1fr;
+    clear: both;
+ 
+    margin-top: 4%;
+
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 250%;
+
+    text-shadow: 7px 7px 4px #000000;
+    color: rgb(250, 250, 250);
+
+    user-select: none;
+
+}
+ 
+
+.showcase-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.div-1-showcase {
+    position: relative;
+    display: block;
+}
+
+.div-overlay {
+    position: absolute;
+    display: flex;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgb(0, 0, 0);
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    transition: .5s ease;
+    border-radius: 10px;
+}
+
+.div-overlay:hover {
+    opacity: 0.7;
+}
+
+.join-bttn {
+    border: none;
+    
+    padding: 10px 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 5px;
+
+    cursor: pointer;
+    background-color: #353535;
+
+    color: #ffffff;
+
+}
+
+.div-overlay:hover .join-bttn {
+    opacity: 10;
+}
+
+.video-showcase {
+    border-radius: 10px;
+    width: 100%;
+
+    object-fit: contain;
+}
+
+.video-name {
+    color: #ffffff;
+    text-shadow: 7px 7px 4px #000000;
+
+    font-weight: bold;
+    font-size: 30px;
+
+    text-align: center;
+    user-select: none;
+
+}
+
+.video-info {
+    font-style: italic;
+    text-align: center;
+    user-select: none;
+
+    font-size: 20px;
+
+    color: rgb(250, 250, 250);
+}
+
