@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title> Storm's Portfolio </title>
+
+        <link rel = "stylesheet" href="styles/general.css">
+        <link rel = "stylesheet" href="styles/navbar.css">
+        <link rel = "stylesheet" href="styles/index.css">
+        <link rel = "stylesheet" href="styles/contact.css">
+
+        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+
+        <style>
+            body {
+                overflow: hidden;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <script src="js/navbar.js"></script>
+
+        <div class = "nav-bar">
+            <a class = "nav-bar-button" href = "index.html"> home </a>
+
+            <div class="dropdown">
+                <button class="nav-bar-button" onclick="toggleHidden()">showcase</button>
+                <div class="dropdown-content" id = "dropdown">
+                  <a id = "hidden-games" href="library.html"> Game Library</a>
+                  <a id = "hidden-scripting" href="showcase.html"> Scripting Showcase</a>
+                </div>
+            </div>
+
+            <a class = "nav-bar-button" href = "reviews.html" >reviews  </a>
+            <a class = "nav-bar-button" href="contact.html"> contact  </a>
+        </div>
+
+        <div class = "page-title">
+            Contact Me
+        </div>
+
+        <div class = "contact-container">
+
+
+            <div class = "details">
+                <div class = "contact-details">
+                    <div class = "button-title"> DISCORD </div>
+                    <a class = "details-input" id = "join-bttn" href="https://discord.gg/Zc9JPvTTTk" target="_blank">  Join </a>
+                    <div class = "button-title"> DISCORD USERNAME </div>
+                    <div class = "details-input" id = "discord-username">  chaosinthefields </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+</html>
