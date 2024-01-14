@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title> Storm's Portfolio </title>
+
+        <link rel = "stylesheet" href="styles/general.css">
+        <link rel = "stylesheet" href="styles/navbar.css">
+        <link rel = "stylesheet" href="styles/index.css">
+
+        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+
+        <style>
+            body {
+                overflow: hidden;
+            }
+        </style>
+        
+    </head>
+
+    <body>
+        <script src="js/navbar.js"></script>
+
+        <div class = "nav-bar">
+            <a class = "nav-bar-button" href = "index.html"> home </a>
+
+            <div class="dropdown">
+                <button class="nav-bar-button" onclick="toggleHidden()">showcase</button>
+                <div class="dropdown-content" id = "dropdown">
+                  <a id = "hidden-games" href="library.html"> Game Library</a>
+                  <a id = "hidden-scripting" href="showcase.html"> Scripting Showcase</a>
+                </div>
+            </div>
+
+            <a class = "nav-bar-button" href = "reviews.html" >reviews  </a>
+            <a class = "nav-bar-button" href="contact.html"> contact  </a>
+        </div>
+
+        <div class = "name-container">
+            <model-viewer src="3DModel/scene.gltf" auto-rotate></model-viewer>
+
+            <p class = "name-div">
+                S T O R M
+            </p>
+
+        </div>
+
+        <div class = "info-div">
+            FULL - STACK, APP & GAME DEVELOPER
+        </div>
+
+    </body>
+</html>
